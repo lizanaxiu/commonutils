@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.sf.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_default_height"
+        android:background="@drawable/login_title_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="照片"
+            android:textColor="@color/login_title_color"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/cancel_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="right|center_vertical"
+            android:src="@drawable/common_clear_btn_bg"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:divider="@color/light_grey"
+        android:dividerHeight="1dp"
+        android:paddingBottom="8dip" >
+    </ListView>
+
+</LinearLayout>

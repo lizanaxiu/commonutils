@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/stop_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭service" />
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开启service" 
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/select_pic_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="选择图片" />
+
+</LinearLayout>

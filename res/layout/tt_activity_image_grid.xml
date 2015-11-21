@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_default_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/login_title_bg" >
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:scaleType="center"
+            android:src="@drawable/common_back_p" />
+
+        <TextView
+            android:id="@+id/base_fragment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/login_title_color"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/cancel_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="right|center_vertical"
+            android:src="@drawable/common_clear_btn_bg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/select_img_layout"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/login_big_bg" >
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/topic_record_pressed_bg"
+            android:text="@string/umeng_socialize_send_btn_str"
+            android:textColor="@color/login_title_color" />
+
+        <HorizontalScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/finish"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/selected_image_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/gridview_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/select_img_layout"
+        android:layout_below="@+id/top"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="9dp" >
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clipToPadding="true"
+            android:columnWidth="80dp"
+            android:fitsSystemWindows="true"
+            android:gravity="center"
+            android:horizontalSpacing="6dp"
+            android:numColumns="auto_fit"
+            android:orientation="vertical"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="6dp" >
+        </GridView>
+    </LinearLayout>
+
+</RelativeLayout>

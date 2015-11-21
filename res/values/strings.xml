@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">commonUtils</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="pic_limit">最多选择</string>
+    <string name="unavailable_image_file">该文件已损坏</string>
+    <string name="pic_limit_text2">张图片</string>
+    <string name="common_intro">这是CommonUIFragment界面</string>
+    <string name="launch_intro">这是第一个Fragment界面</string>
+    <string name="launch_click_me">我是一个按钮</string>
+    <string name="nav_desc">nav_desc</string>
+
+</resources>

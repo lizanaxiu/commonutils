@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 圈子 -->
+    <color name="qz_bg">#f1f1f1</color>
+    <!-- 圈子背景色 -->
+    <color name="qz_white">#FFFFFF</color>
+    <!-- 白色 -->
+    <color name="qz_title_bg">#2372ae</color>
+    <!-- 圈子标题背景色 -->
+    <color name="qz_font_color">#373737</color>
+    <!-- 圈子字体颜色 -->
+    <color name="qz_mb">#dddddd</color>
+    <color name="gridView_color">#333333</color>
+    <!-- 圈子描边颜色 -->
+    <color name="qz_hint_color">#8f8f8f</color>
+    <color name="black">#000000</color>
+    <!-- 黑色 -->
+    <!-- 红色 -->
+    <color name="qz_red">#FF0000</color>
+    <color name="qz_font_blue">#298DD8</color>
+
+    <drawable name="screen_background_light_transparent">#80ffffff</drawable>
+    
+    <color name="font_red">#F57F7B</color>
+    <color name="font_green">#68DD73</color>
+     <color name="qz_group_assistant">#2372AE</color>
+     <color name="qz_group_name">#999999</color>
+      <color name="attention_hui">#A8A8A8</color>
+     
+    <!-- 圈子 -->
+
+
+    <!-- 登录背景色 -->
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+    <!-- 页面背景色 浅灰 -->
+    <drawable name="login_big_bg">#F1F1F1</drawable>
+    <drawable name="login_title_bg">#2372AE</drawable>
+<drawable name="login_big_bg_new">#FFFEFF</drawable>
+    <color name="dark_gray">#CDC9C9</color>
+    <color name="dark_black">#00000000</color>
+    <!--红紫色 -->
+    <color name="red">#FF0000</color>
+     <color name="light_red">#f30101</color>
+     <color name="red_2">#f74a48</color>
+     <color name="pop_menu_blue">#3b7ded</color>
+     
+    <!-- 白色 -->
+    <color name="login_title_color">#FFFEFF</color>
+    <color name="login_button_tv_color">#FFFFFF</color>
+    <!-- 蓝色字体颜色值 -->
+    <color name="login_teleph_pre_color">#107fd7</color>
+    <color name="login_info_hint_color">#666666</color>
+    <color name="light_grey">#D4D4D4</color>
+    <color name="dialog_color">#3b7ded</color>
+    <drawable name="login_text_black">#373737</drawable>
+    <color name="blue">#6A9AF1</color>
+	<color name="zhgl_color">#373737</color>
+    <drawable name="login_divider_color">#dddddd</drawable>
+
+    <color name="login_text_color">#7D7D7D</color>
+    <color name="login_text_black">#373737</color>
+    <!-- 登录背景色 -->
+
+
+    <!-- 话题 -->
+    <!-- 蓝色字体颜色值leftmenu -->
+    <color name="topic_left_menu_tv_color">#69b6f9</color>
+    <color name="light_blue">#3b7ded</color>
+    
+    <!-- 话题 -->
+	
+	<color name="hq_stock_red">#ff0000</color>
+	<color name="hq_stock_green">#00FF56</color>
+	
+	
+	<drawable name="login_color_sel">#107fd7</drawable>
+	<drawable name="login_color_nor">#A4A4A4</drawable>
+	
+	<drawable name="new_color_sel">#dddddd</drawable>
+	<drawable name="new_color_nor">#ffffff</drawable>
+ 
+    <drawable name="login_title_color">#2372AE</drawable>
+    <color name="umeng_socialize_comments_bg">#F4F4F4</color>
+    <color name="umeng_socialize_color_group">#2c3035</color>
+    <color name="umeng_socialize_list_item_textcolor">#333333</color>
+    <color name="umeng_socialize_list_item_bgcolor">#FFFFFF</color>
+    <color name="umeng_socialize_divider">#E6E6E6</color>
+    <color name="umeng_socialize_text_time">#999999</color>
+    <color name="umeng_socialize_text_title">#464f61</color>
+    <color name="umeng_socialize_text_friends_list">#959696</color>
+    <color name="umeng_socialize_text_share_content">#666666</color>
+    <color name="umeng_socialize_ucenter_bg">#EEEEEE</color>
+    <color name="umeng_socialize_text_ucenter">#595959</color>
+    <color name="umeng_socialize_edit_bg">#C4C4C4</color>
+    <color name="umeng_socialize_grid_divider_line">#F8F8F8</color>
+    
+    <color name="tab_button_text_nor">#a9a9a9</color>
+    <color name="tab_button_text_select">#107fd7</color>
+    
+    <!--发现模块  -->
+	<color name="find_main_text_color">#333333</color>
+	<color name="find_main_bg">#8f8f8f</color>
+	
+	<drawable name="find_main_item_p">#dddddd</drawable>
+	<drawable name="find_main_item_n">#ffffff</drawable>
+	
+	<color name="find_tab_indicator_text_p">#3b7ded</color>
+	<color name="find_tab_indicator_text_n">#333333</color>
+	<color name="find_bg_color">#f1f1f1</color>
+	<color name="find_bg_white_color">#ffffff</color>
+	
+	<drawable name="find_listview_item_p">#dddddd</drawable>
+	<drawable name="find_listview_item_n">#ffffff</drawable>
+	
+	<drawable name="common_listview_select_color">#f0f0f0</drawable>
+	<color name="listitem_transparent">#00000000</color>
+	<color name="album_list_item_count_color">#bcbcbc</color>
+	<color name="textview_sel_color">#dddddd</color>
+	<color name="textview_nor_color">#107fd7</color>
+	
+	<!--  #107fd7  #dddddd-->
+	
+	 <!--公共 -->
+	 <color name="divider_line_color">#eaeaea</color>
+	 <color name="age_black">#999999</color>
+	 <color name="black_font">#666666</color>
+	 <color name="black_font_p">#f0f0f0</color>
+	 
+	 <color name="white">#FFFFFF</color>
+    <color name="gray">#aaaaaa</color>
+    
+    <color name="black_text_color">#333333</color>
+    <color name="gray_text_color">#666666</color>
+    <color name="gray_bg_color">#f3f3f3</color>
+	<color name="gray_hot_text_color">#999999</color>
+	
+	<color name="dark_white_color">#F7F7F7</color>
+    
+</resources>

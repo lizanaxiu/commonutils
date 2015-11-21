@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/test_regular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+    <Button 
+        android:onClick="TurnToChat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="进入聊天页面"
+        />
+</LinearLayout>
